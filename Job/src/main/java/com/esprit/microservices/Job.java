@@ -48,6 +48,11 @@ public class Job implements Serializable{
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	public Job(String service) {
+		super();
+		this.service = service;
+	}
+	
 	
 
 }
